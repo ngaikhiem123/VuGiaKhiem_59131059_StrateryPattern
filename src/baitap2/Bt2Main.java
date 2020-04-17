@@ -32,7 +32,7 @@ public class Bt2Main {
         System.out.println("Giỏ hàng thứ 1:\nDanh sách hàng hóa: ");
         gh1.inDSHH();    
         System.out.println("Tiền hàng : " + gh1.tinhTienHang() + 
-                           "\nSố tiền khách phải trả: " + gh1.thanhToan());                   
+                           "\nSố tiền khách phải trả: " + gh1.thanhToan() + "\n");                   
         //giỏ hàng 2
         gh2.themHH(hh2);
         gh2.themHH(hh3);
