@@ -5,6 +5,8 @@
  */
 package baitap3;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -46,6 +48,9 @@ public class SinhVien {
         this.diemTB = diemTB;
     }
 
-    
+    public String inTT(){
+        DateFormat df = new SimpleDateFormat("dd-mm-yyyy");
+        return (String.format("%-20s %-20s %-15s", hoTen, df.format(ngaySinh), diemTB));
+    }
     
 }
